@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7700455F1C9549860017D399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700455E1C9549860017D399 /* AppDelegate.swift */; };
+		770045611C9549860017D399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770045601C9549860017D399 /* ViewController.swift */; };
+		770045641C9549860017D399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770045621C9549860017D399 /* Main.storyboard */; };
+		770045671C9549860017D399 /* DeepBlue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 770045651C9549860017D399 /* DeepBlue.xcdatamodeld */; };
+		770045691C9549860017D399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770045681C9549860017D399 /* Assets.xcassets */; };
+		7700456C1C9549860017D399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7700456A1C9549860017D399 /* LaunchScreen.storyboard */; };
+		770045741C9551070017D399 /* FormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770045731C9551070017D399 /* FormTableViewController.swift */; };
+		77008DFD1CB665D400897E9E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77008DFC1CB665D400897E9E /* ProfileViewController.swift */; };
+		77008DFF1CB7715600897E9E /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77008DFE1CB7715600897E9E /* SweetAlert.swift */; };
+		77008E011CB77C3B00897E9E /* DonationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77008E001CB77C3B00897E9E /* DonationsTableViewController.swift */; };
+		770D97071CB8B79B008A61DF /* BarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770D97061CB8B79B008A61DF /* BarcodeViewController.swift */; };
+		770D97091CB8B88D008A61DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770D97081CB8B88D008A61DF /* Model.swift */; };
+		77CA94D61CB573E000962D10 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CA94D51CB573E000962D10 /* NewsTableViewController.swift */; };
+		77CA94D81CB573EC00962D10 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CA94D71CB573EC00962D10 /* NewsTableViewCell.swift */; };
+		77D008621CB172D500A7E8B6 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008611CB172D500A7E8B6 /* CalendarViewController.swift */; };
+		77D008B51CB173A600A7E8B6 /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0089A1CB173A600A7E8B6 /* CVAuxiliaryView.swift */; };
+		77D008B61CB173A600A7E8B6 /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0089B1CB173A600A7E8B6 /* CVCalendarContentViewController.swift */; };
+		77D008B71CB173A600A7E8B6 /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0089C1CB173A600A7E8B6 /* CVCalendarDayView.swift */; };
+		77D008B81CB173A600A7E8B6 /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0089D1CB173A600A7E8B6 /* CVCalendarDayViewControlCoordinator.swift */; };
+		77D008B91CB173A600A7E8B6 /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0089E1CB173A600A7E8B6 /* CVCalendarManager.swift */; };
+		77D008BA1CB173A600A7E8B6 /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0089F1CB173A600A7E8B6 /* CVCalendarMenuView.swift */; };
+		77D008BB1CB173A600A7E8B6 /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A01CB173A600A7E8B6 /* CVCalendarMenuViewDelegate.swift */; };
+		77D008BC1CB173A600A7E8B6 /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A11CB173A600A7E8B6 /* CVCalendarMonthContentViewController.swift */; };
+		77D008BD1CB173A600A7E8B6 /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A21CB173A600A7E8B6 /* CVCalendarMonthView.swift */; };
+		77D008BE1CB173A600A7E8B6 /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A31CB173A600A7E8B6 /* CVCalendarTouchController.swift */; };
+		77D008BF1CB173A600A7E8B6 /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A41CB173A600A7E8B6 /* CVCalendarView.swift */; };
+		77D008C01CB173A600A7E8B6 /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A51CB173A600A7E8B6 /* CVCalendarViewAnimator.swift */; };
+		77D008C11CB173A600A7E8B6 /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A61CB173A600A7E8B6 /* CVCalendarViewAnimatorDelegate.swift */; };
+		77D008C21CB173A600A7E8B6 /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A71CB173A600A7E8B6 /* CVCalendarViewAppearance.swift */; };
+		77D008C31CB173A600A7E8B6 /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A81CB173A600A7E8B6 /* CVCalendarViewAppearanceDelegate.swift */; };
+		77D008C41CB173A600A7E8B6 /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008A91CB173A600A7E8B6 /* CVCalendarViewDelegate.swift */; };
+		77D008C51CB173A600A7E8B6 /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008AA1CB173A600A7E8B6 /* CVCalendarViewPresentationMode.swift */; };
+		77D008C61CB173A600A7E8B6 /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008AB1CB173A600A7E8B6 /* CVCalendarWeekContentViewController.swift */; };
+		77D008C71CB173A600A7E8B6 /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008AC1CB173A600A7E8B6 /* CVCalendarWeekday.swift */; };
+		77D008C81CB173A600A7E8B6 /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008AD1CB173A600A7E8B6 /* CVCalendarWeekView.swift */; };
+		77D008C91CB173A600A7E8B6 /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008AE1CB173A600A7E8B6 /* CVDate.swift */; };
+		77D008CA1CB173A600A7E8B6 /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008AF1CB173A600A7E8B6 /* CVRange.swift */; };
+		77D008CB1CB173A600A7E8B6 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008B01CB173A600A7E8B6 /* CVScrollDirection.swift */; };
+		77D008CC1CB173A600A7E8B6 /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008B11CB173A600A7E8B6 /* CVSelectionType.swift */; };
+		77D008CD1CB173A600A7E8B6 /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008B21CB173A600A7E8B6 /* CVSet.swift */; };
+		77D008CE1CB173A600A7E8B6 /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008B31CB173A600A7E8B6 /* CVShape.swift */; };
+		77D008CF1CB173A600A7E8B6 /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D008B41CB173A600A7E8B6 /* CVWeekdaySymbolType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7700455B1C9549860017D399 /* Mesco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mesco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7700455E1C9549860017D399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		770045601C9549860017D399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		770045631C9549860017D399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		770045661C9549860017D399 /* DeepBlue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeepBlue.xcdatamodel; sourceTree = "<group>"; };
+		770045681C9549860017D399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7700456B1C9549860017D399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7700456D1C9549860017D399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		770045731C9551070017D399 /* FormTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableViewController.swift; sourceTree = "<group>"; };
+		77008DFC1CB665D400897E9E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		77008DFE1CB7715600897E9E /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweetAlert.swift; path = "../../Taqneeq 8.0/Taqneeq 8.0/SweetAlert.swift"; sourceTree = "<group>"; };
+		77008E001CB77C3B00897E9E /* DonationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationsTableViewController.swift; sourceTree = "<group>"; };
+		770D97061CB8B79B008A61DF /* BarcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeViewController.swift; sourceTree = "<group>"; };
+		770D97081CB8B88D008A61DF /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		77CA94D51CB573E000962D10 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		77CA94D71CB573EC00962D10 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		77D008611CB172D500A7E8B6 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		77D0089A1CB173A600A7E8B6 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVAuxiliaryView.swift; sourceTree = "<group>"; };
+		77D0089B1CB173A600A7E8B6 /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		77D0089C1CB173A600A7E8B6 /* CVCalendarDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarDayView.swift; sourceTree = "<group>"; };
+		77D0089D1CB173A600A7E8B6 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		77D0089E1CB173A600A7E8B6 /* CVCalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarManager.swift; sourceTree = "<group>"; };
+		77D0089F1CB173A600A7E8B6 /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		77D008A01CB173A600A7E8B6 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
+		77D008A11CB173A600A7E8B6 /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
+		77D008A21CB173A600A7E8B6 /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		77D008A31CB173A600A7E8B6 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarTouchController.swift; sourceTree = "<group>"; };
+		77D008A41CB173A600A7E8B6 /* CVCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarView.swift; sourceTree = "<group>"; };
+		77D008A51CB173A600A7E8B6 /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		77D008A61CB173A600A7E8B6 /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		77D008A71CB173A600A7E8B6 /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		77D008A81CB173A600A7E8B6 /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		77D008A91CB173A600A7E8B6 /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		77D008AA1CB173A600A7E8B6 /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		77D008AB1CB173A600A7E8B6 /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		77D008AC1CB173A600A7E8B6 /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		77D008AD1CB173A600A7E8B6 /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		77D008AE1CB173A600A7E8B6 /* CVDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVDate.swift; sourceTree = "<group>"; };
+		77D008AF1CB173A600A7E8B6 /* CVRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVRange.swift; sourceTree = "<group>"; };
+		77D008B01CB173A600A7E8B6 /* CVScrollDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVScrollDirection.swift; sourceTree = "<group>"; };
+		77D008B11CB173A600A7E8B6 /* CVSelectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSelectionType.swift; sourceTree = "<group>"; };
+		77D008B21CB173A600A7E8B6 /* CVSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSet.swift; sourceTree = "<group>"; };
+		77D008B31CB173A600A7E8B6 /* CVShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVShape.swift; sourceTree = "<group>"; };
+		77D008B41CB173A600A7E8B6 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		770045581C9549860017D399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		770045521C9549860017D399 = {
+			isa = PBXGroup;
+			children = (
+				7700455D1C9549860017D399 /* DeepBlue */,
+				7700455C1C9549860017D399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7700455C1C9549860017D399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7700455B1C9549860017D399 /* Mesco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7700455D1C9549860017D399 /* DeepBlue */ = {
+			isa = PBXGroup;
+			children = (
+				770045621C9549860017D399 /* Main.storyboard */,
+				770D97081CB8B88D008A61DF /* Model.swift */,
+				7700457A1C956CE10017D399 /* Delegate */,
+				770045791C956CD30017D399 /* Controllers */,
+				77D008651CB1736F00A7E8B6 /* CVCalendar */,
+				7700457B1C956CEC0017D399 /* Supporting Files */,
+			);
+			path = DeepBlue;
+			sourceTree = "<group>";
+		};
+		770045791C956CD30017D399 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				770045601C9549860017D399 /* ViewController.swift */,
+				77008DFC1CB665D400897E9E /* ProfileViewController.swift */,
+				77D008611CB172D500A7E8B6 /* CalendarViewController.swift */,
+				770045731C9551070017D399 /* FormTableViewController.swift */,
+				77CA94D51CB573E000962D10 /* NewsTableViewController.swift */,
+				77CA94D71CB573EC00962D10 /* NewsTableViewCell.swift */,
+				77008E001CB77C3B00897E9E /* DonationsTableViewController.swift */,
+				770D97061CB8B79B008A61DF /* BarcodeViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7700457A1C956CE10017D399 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7700455E1C9549860017D399 /* AppDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		7700457B1C956CEC0017D399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77008DFE1CB7715600897E9E /* SweetAlert.swift */,
+				770045681C9549860017D399 /* Assets.xcassets */,
+				7700456A1C9549860017D399 /* LaunchScreen.storyboard */,
+				7700456D1C9549860017D399 /* Info.plist */,
+				770045651C9549860017D399 /* DeepBlue.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D008651CB1736F00A7E8B6 /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				77D0089A1CB173A600A7E8B6 /* CVAuxiliaryView.swift */,
+				77D0089B1CB173A600A7E8B6 /* CVCalendarContentViewController.swift */,
+				77D0089C1CB173A600A7E8B6 /* CVCalendarDayView.swift */,
+				77D0089D1CB173A600A7E8B6 /* CVCalendarDayViewControlCoordinator.swift */,
+				77D0089E1CB173A600A7E8B6 /* CVCalendarManager.swift */,
+				77D0089F1CB173A600A7E8B6 /* CVCalendarMenuView.swift */,
+				77D008A01CB173A600A7E8B6 /* CVCalendarMenuViewDelegate.swift */,
+				77D008A11CB173A600A7E8B6 /* CVCalendarMonthContentViewController.swift */,
+				77D008A21CB173A600A7E8B6 /* CVCalendarMonthView.swift */,
+				77D008A31CB173A600A7E8B6 /* CVCalendarTouchController.swift */,
+				77D008A41CB173A600A7E8B6 /* CVCalendarView.swift */,
+				77D008A51CB173A600A7E8B6 /* CVCalendarViewAnimator.swift */,
+				77D008A61CB173A600A7E8B6 /* CVCalendarViewAnimatorDelegate.swift */,
+				77D008A71CB173A600A7E8B6 /* CVCalendarViewAppearance.swift */,
+				77D008A81CB173A600A7E8B6 /* CVCalendarViewAppearanceDelegate.swift */,
+				77D008A91CB173A600A7E8B6 /* CVCalendarViewDelegate.swift */,
+				77D008AA1CB173A600A7E8B6 /* CVCalendarViewPresentationMode.swift */,
+				77D008AB1CB173A600A7E8B6 /* CVCalendarWeekContentViewController.swift */,
+				77D008AC1CB173A600A7E8B6 /* CVCalendarWeekday.swift */,
+				77D008AD1CB173A600A7E8B6 /* CVCalendarWeekView.swift */,
+				77D008AE1CB173A600A7E8B6 /* CVDate.swift */,
+				77D008AF1CB173A600A7E8B6 /* CVRange.swift */,
+				77D008B01CB173A600A7E8B6 /* CVScrollDirection.swift */,
+				77D008B11CB173A600A7E8B6 /* CVSelectionType.swift */,
+				77D008B21CB173A600A7E8B6 /* CVSet.swift */,
+				77D008B31CB173A600A7E8B6 /* CVShape.swift */,
+				77D008B41CB173A600A7E8B6 /* CVWeekdaySymbolType.swift */,
+			);
+			name = CVCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7700455A1C9549860017D399 /* DeepBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770045701C9549860017D399 /* Build configuration list for PBXNativeTarget "DeepBlue" */;
+			buildPhases = (
+				770045571C9549860017D399 /* Sources */,
+				770045581C9549860017D399 /* Frameworks */,
+				770045591C9549860017D399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepBlue;
+			productName = DeepBlue;
+			productReference = 7700455B1C9549860017D399 /* Mesco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		770045531C9549860017D399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Deepak Dewani";
+				TargetAttributes = {
+					7700455A1C9549860017D399 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 770045561C9549860017D399 /* Build configuration list for PBXProject "DeepBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 770045521C9549860017D399;
+			productRefGroup = 7700455C1C9549860017D399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7700455A1C9549860017D399 /* DeepBlue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		770045591C9549860017D399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7700456C1C9549860017D399 /* LaunchScreen.storyboard in Resources */,
+				770045691C9549860017D399 /* Assets.xcassets in Resources */,
+				770045641C9549860017D399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		770045571C9549860017D399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D008621CB172D500A7E8B6 /* CalendarViewController.swift in Sources */,
+				77D008BF1CB173A600A7E8B6 /* CVCalendarView.swift in Sources */,
+				77D008CB1CB173A600A7E8B6 /* CVScrollDirection.swift in Sources */,
+				77D008C11CB173A600A7E8B6 /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				77D008BB1CB173A600A7E8B6 /* CVCalendarMenuViewDelegate.swift in Sources */,
+				77D008B71CB173A600A7E8B6 /* CVCalendarDayView.swift in Sources */,
+				77008DFD1CB665D400897E9E /* ProfileViewController.swift in Sources */,
+				77D008C61CB173A600A7E8B6 /* CVCalendarWeekContentViewController.swift in Sources */,
+				77D008CA1CB173A600A7E8B6 /* CVRange.swift in Sources */,
+				77D008C91CB173A600A7E8B6 /* CVDate.swift in Sources */,
+				77008DFF1CB7715600897E9E /* SweetAlert.swift in Sources */,
+				77D008C41CB173A600A7E8B6 /* CVCalendarViewDelegate.swift in Sources */,
+				77D008BE1CB173A600A7E8B6 /* CVCalendarTouchController.swift in Sources */,
+				77D008CD1CB173A600A7E8B6 /* CVSet.swift in Sources */,
+				77D008BC1CB173A600A7E8B6 /* CVCalendarMonthContentViewController.swift in Sources */,
+				770D97091CB8B88D008A61DF /* Model.swift in Sources */,
+				770045611C9549860017D399 /* ViewController.swift in Sources */,
+				77D008C71CB173A600A7E8B6 /* CVCalendarWeekday.swift in Sources */,
+				77D008CF1CB173A600A7E8B6 /* CVWeekdaySymbolType.swift in Sources */,
+				7700455F1C9549860017D399 /* AppDelegate.swift in Sources */,
+				770045671C9549860017D399 /* DeepBlue.xcdatamodeld in Sources */,
+				77D008CE1CB173A600A7E8B6 /* CVShape.swift in Sources */,
+				77CA94D61CB573E000962D10 /* NewsTableViewController.swift in Sources */,
+				77D008B91CB173A600A7E8B6 /* CVCalendarManager.swift in Sources */,
+				77CA94D81CB573EC00962D10 /* NewsTableViewCell.swift in Sources */,
+				77D008B61CB173A600A7E8B6 /* CVCalendarContentViewController.swift in Sources */,
+				77D008C31CB173A600A7E8B6 /* CVCalendarViewAppearanceDelegate.swift in Sources */,
+				770045741C9551070017D399 /* FormTableViewController.swift in Sources */,
+				77D008CC1CB173A600A7E8B6 /* CVSelectionType.swift in Sources */,
+				77D008BD1CB173A600A7E8B6 /* CVCalendarMonthView.swift in Sources */,
+				77D008C01CB173A600A7E8B6 /* CVCalendarViewAnimator.swift in Sources */,
+				77008E011CB77C3B00897E9E /* DonationsTableViewController.swift in Sources */,
+				77D008C51CB173A600A7E8B6 /* CVCalendarViewPresentationMode.swift in Sources */,
+				77D008B51CB173A600A7E8B6 /* CVAuxiliaryView.swift in Sources */,
+				77D008BA1CB173A600A7E8B6 /* CVCalendarMenuView.swift in Sources */,
+				77D008C81CB173A600A7E8B6 /* CVCalendarWeekView.swift in Sources */,
+				77D008B81CB173A600A7E8B6 /* CVCalendarDayViewControlCoordinator.swift in Sources */,
+				77D008C21CB173A600A7E8B6 /* CVCalendarViewAppearance.swift in Sources */,
+				770D97071CB8B79B008A61DF /* BarcodeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		770045621C9549860017D399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				770045631C9549860017D399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7700456A1C9549860017D399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7700456B1C9549860017D399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7700456E1C9549860017D399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7700456F1C9549860017D399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		770045711C9549860017D399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deepakkumar.DeepBlue;
+				PRODUCT_NAME = Mesco;
+			};
+			name = Debug;
+		};
+		770045721C9549860017D399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deepakkumar.DeepBlue;
+				PRODUCT_NAME = Mesco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		770045561C9549860017D399 /* Build configuration list for PBXProject "DeepBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7700456E1C9549860017D399 /* Debug */,
+				7700456F1C9549860017D399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770045701C9549860017D399 /* Build configuration list for PBXNativeTarget "DeepBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770045711C9549860017D399 /* Debug */,
+				770045721C9549860017D399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		770045651C9549860017D399 /* DeepBlue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				770045661C9549860017D399 /* DeepBlue.xcdatamodel */,
+			);
+			currentVersion = 770045661C9549860017D399 /* DeepBlue.xcdatamodel */;
+			path = DeepBlue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 770045531C9549860017D399 /* Project object */;
+}
